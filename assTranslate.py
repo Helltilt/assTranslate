@@ -31,7 +31,7 @@ spinner = itertools.cycle(["-", "/", "|", "\\"])
 out_name = args.lang + "_" + args.input
 with open(args.input, "r", encoding="utf-8") as ass:
     out_file = open(out_name, "w", encoding="utf-8")
-    print("Starting translating...")    
+    print("Starting translating...")
     for line in ass:
         sys.stdout.write(next(spinner))
         sys.stdout.flush()
