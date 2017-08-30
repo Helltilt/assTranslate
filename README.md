@@ -7,6 +7,7 @@ Requirements
 ------------
 
 - Python >= 3.5
+- [TextBlob](https://github.com/sloria/TextBlob)
 
 Dependency
 ----------
