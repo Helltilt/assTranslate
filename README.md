@@ -1,15 +1,15 @@
 # assTranslate
 A Python 3.5+ script that automatically translates ass subtitles files with Google Translate
 
-# Dependency
+### Dependency
 assTranslate uses [TextBlob](https://github.com/sloria/textblob), so you need to install it like this:
 ```sh
 $ pip install -U textblob
 $ python -m textblob.download_corpora
 ```
-# Usage
+### Usage
 ```sh
-usage: assTranslate.py [-h] -i INPUT -l LANG
+assTranslate.py [-h] -i INPUT -l LANG
 
 optional arguments:
   -h, --help            show this help message and exit
