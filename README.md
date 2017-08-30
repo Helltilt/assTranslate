@@ -9,13 +9,6 @@ Requirements
 - Python >= 3.5
 - [TextBlob](https://github.com/sloria/TextBlob)
 
-Dependency
-----------
-
-
-    $ pip install -U textblob
-    $ python -m textblob.download_corpora
-    
 Usage
 ----------
 
