@@ -44,7 +44,7 @@ with open(args.input, "r", encoding="utf-8") as ass:
             stripped_dialogue = re.sub(comment_regex, "", dialogue)
             # remove newlines
             stripped_dialogue = re.sub(newline_regex, r"\1 \2", stripped_dialogue)
-            blob = TextBlob(stripped_dialogue.strip())
+            blob = TextBlob(stripped_dialogue)
             try:
                 blob = blob.translate(to=args.lang)
             except:
